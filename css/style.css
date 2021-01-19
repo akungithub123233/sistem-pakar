@@ -1,0 +1,96 @@
+/*bagian beranda atau index*/
+.gambar-beranda{
+	margin-left: 20px;
+	width: 90%;
+	float: left;
+}
+header {
+	background-color: #1e1e1d;
+	margin-bottom: 10%; 
+	margin-top: 0%;
+	max-height: 6%;
+}
+header::after {
+	content:'';
+	display: block;
+	clear: both;
+}
+header ul {
+	margin-top: 0%;
+	float: right;
+}
+header ul li {
+	padding: 0px 20px;
+	display: inline-block;
+}
+a{
+	text-decoration: none;
+	color: white;
+	font-size: 12px;
+}
+h3{
+	color: #121b51;
+	font-size: 20px;
+}
+.mulai{
+	margin: 20px;
+	padding: 5px 15px;
+	background-color: #509b3c;
+	color: #ffffff;
+	border:none;
+	font-size: 16px;
+}
+.mulai:hover{
+	cursor: pointer;
+	background-color: black;
+}
+.box-beranda{
+	width: 35%;
+	height: 60vh;
+	margin: 80px auto;
+	padding-bottom: 10px;
+	border:2px solid;
+	background-color: #b7f8a8;
+}
+
+/*bagian beranda atau index*/
+.diagnosa{
+	
+	margin-bottom: 10px;
+	padding: 5px 5px;
+	background-color: #509b3c;
+	color: #ffffff;
+	border:none;
+	font-size: 16px;
+}
+.diagnosa:hover{
+	cursor: pointer;
+	background-color: black;
+}
+/*bagian tentang*/
+h4{
+	color: black;
+	font-size: 22px;
+	padding-left: 35px;
+}
+h5{
+	color: black;
+	font-size: 15px;
+	padding-left: 14px;
+	margin-top: 0px;
+}
+/*bagian penyakit*/
+.tentang{
+	margin-left: 6%;
+	margin-bottom: 5px;
+	margin-top: 0%;
+	padding: 3px 5px;
+	background-color: #509b3c;
+	color: white;
+	border:none;
+	font-size: 16px;
+}
+.tentang:hover{
+	cursor: pointer;
+	background-color: black;
+}
